@@ -10,14 +10,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div style={{ display: 'flex', justifyContent: 'center', margin: '0px 0px 40px 0px' }}>
-          <animated.div style={style} onMouseEnter={trigger}>
             {/* Child can be anything */}
             <ConnectButton accountStatus='full' label='Metamask' />
-          </animated.div>
         </div>
-        <animated.div style={style} onMouseEnter={trigger}>
-        <img src='https://www.rainbowkit.com/rainbow.svg' style={{ borderRadius: '190px' }} className="App-lowgo" alt="logo" />
-        </animated.div>
+        <img src='https://www.rainbowkit.com/rainbow.svg' style={{ borderRadius: '190px' }} className="App-logo" alt="logo" />
         <p>
           Wagmi Wallet Practice
         </p>
